@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jean-Claude Simulator</title>
+	<script type="text/javascript" src="scriptJCVD.js"></script>
+	<script type="text/javascript" src="toolBox.js"></script>
+	<link rel="stylesheet" type="text/css" href="styleJCVD.css">
+</head>
+<body onload="init()" onkeydown="kick(event)" onkeyup="nonKick(event)"> 
+	
+<div id="test">
+		
+	<canvas id="toile" width="850" height="530"> </canvas>
+	
+	<script type="text/javascript">
+
+			var imFond;
+			imFond = document.createElement('img');
+			imFond.src="dojo.png";
+			imFond.alt="dojo";
+
+
+		var imJCVD=[];
+		for (var i = 0; i <4; i++)
+		{
+			imJCVD[i] = document.createElement('img');
+			imJCVD[i].src="JCVD"+i+".png";
+			imJCVD[i].alt="JCVD";
+		}
+
+		var imEau										
+		imEau = document.createElement('img');
+		imEau.src="eau.png";
+		imEau.alt="eau";
+
+		var imFatality
+		imFatality = document.createElement('img');
+		imFatality.src="fatality.png";
+		imFatality.alt="fatality";
+
+		var imVie;
+		imVie = document.createElement('img');
+		imVie.src="vie.png";
+		imVie.alt="vie";
+
+		var imVie1;
+		imVie1 = document.createElement('img');
+		imVie1.src="vie1.png";
+		imVie1.alt="vie1";
+
+		var imNoir;
+		imNoir = document.createElement('img');
+		imNoir.src="noir.png";
+		imNoir.alt="noir";
+
+
+		var imInstructions;
+			imInstructions= document.createElement('img');
+			imInstructions.src="instructions.png";
+			imInstructions.alt="instructions";
+
+		var imMechantD=[];
+		for (var j = 0; j <4; j++)
+		{
+			imMechantD[j] = document.createElement('img');
+			imMechantD[j].src="missileD"+j+".png";
+			imMechantD[j].alt="missileD";
+		}
+
+		var imMechantG=[];
+		for (var k = 0; k <4; k++)
+		{
+			imMechantG[k] = document.createElement('img');
+			imMechantG[k].src="missileG"+k+".png";
+			imMechantG[k].alt="missileG";
+		}
+
+		var imTankD;
+			imTankD= document.createElement('img');
+			imTankD.src="tankD.png";
+			imTankD.alt="tankD";
+
+		var imTankG;
+			imTankG= document.createElement('img');
+			imTankG.src="tankG.png";
+			imTankG.alt="tankG";
+
+		var imExplosion;
+			imExplosion= document.createElement('img');
+			imExplosion.src="explosion.png";
+			imExplosion.alt="explosion";
+
+		var imKickD;
+			imKickD= document.createElement('img');
+			imKickD.src="JCVDKICKD.png";
+			imKickD.alt="highKick";
+
+		var imKickG;
+			imKickG= document.createElement('img');
+			imKickG.src="JCVDKICKG.png";
+			imKickG.alt="highKick";
+	</script>
+	<div id="instructions">
+		<a href="VanDammeOfficial.html" id="acceuil">retour a l'acceuil</a>
+		<br>
+		 <img src="flecheGauche.png" alt="fleche gauche" id="flecheGauche">
+		<h2 id="instructionGauche">pour donner un coup à gauche</h2>
+		<h2 id="instructionDroite">pour donner un coup à droite</h2>
+		<img src="flecheDroite.png" alt="fleche droite" id="flecheDroite">
+	</div>
+	<img src="bambou.png" alt="bambouuuuuuu" id="bambou">
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background-image:url("jcvdbambou.jpg");
+	color: #000;
+}
+#wrap
+{
+	width: 1000px;
+	margin: auto;
+	font-family: "Shanghai";
+}
+#titre
+{
+	margin-left: 224px;
+	margin-bottom: 100px;
+}
+#titre h1
+{
+	font-size: 90px;
+}
+.rectangle
+{
+	font-size: 20px;
+	padding: 16px;
+	margin: 31px;
+	height: 900px;
+	width: 400px;
+	float: left;
+	background-image: url("parchemin.jpg");
+}
+.rectangle h2
+{
+	font-size: 40px;
+}
+.rectangle p
+{
+	margin: 25px;
+}
+#logo
+{
+	margin:auto;
+	margin-top: 1066px;
+	width: 551px;
+	height: 629px;
+	background-image: url("samurai.png");
+}
+#lien
+{
+	width: 441px;
+	height: 89px;
+	margin-top: -369px;
+	margin-left: 282px;
+	border-radius: 15px;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 64px;
+}
+#lienh
+{
+	color: orange;	
+}

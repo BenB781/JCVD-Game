@@ -1,0 +1,75 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background-image: url("jcvdbambou.jpg");
+}
+#toile
+{
+	margin-left: 215px;
+	margin-top: 100px;
+}
+#acceuil
+{
+	margin-left:346px;
+	color: orange;
+	font-family: "Shanghai";
+	font-size: 20px;
+}
+#instructions
+{
+	width:830px; 
+	height:90px;
+	background-color: black;
+	margin-left: 215px;
+	opacity: 0.85;
+}
+h2
+{
+	font-size: 20px;
+	color: orange;
+	font-family: "Shanghai";
+	margin-top: 150px;
+}
+#flecheDroite
+{
+	margin-left: 780px;
+	margin-bottom: -30px;
+	width:40px;
+	height:40px;
+}
+#instructionGauche
+{
+	margin-left: 53px;
+	margin-top: -36px;
+}
+#instructionDroite
+{
+	margin-left: 484px;
+	margin-top: -26px;
+	margin-bottom: -42px;
+}
+#flecheGauche
+{
+	margin-left: 10px;
+	margin-bottom: 0px;
+	width:40px;
+	height:40px;
+
+}
+#test
+{
+	width: 1264px;
+	height:921px;
+	margin-left: 10px;
+}
+#bambou
+{
+	margin-left: 30px;
+	margin-top: -823px;
+	height: 1025px;
+	width: 1262px;
+}
